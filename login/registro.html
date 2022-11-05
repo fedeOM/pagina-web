@@ -1,0 +1,52 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Find and rate</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <div class="logo">
+            <a href="#"><img src="logo.jpg" alt="logo"></a>
+        </div>
+    </nav>
+
+    <section class="login">
+        <div class="form-container">
+            <!-- <img class="logo" src="logo.jpg" alt="logo"> -->
+            <form action="" class="form">
+
+                <label for="text" class="label">Nombre</label>
+                <input type="text" placeholder="Nombre" class="input input-name">
+
+                <label for="text" class="label">Apellido</label>
+                <input type="text" placeholder="Nombre" class="input input-apellido">
+
+                <label for="email" class="label">Dirección Email</label>
+                <input type="email"  placeholder="email@example.com" class="input input-email">
+
+
+                <label for="password" class="label">Contraseña</label>
+                <input type="password"  placeholder="Tu contraseña" class="input input-password">
+
+                <label for="password" class="label">Confirmar contraseña</label>
+                <input type="password"  placeholder="Tu contraseña" class="input input-password input-password2">
+
+                <p class="error"></p> <!-- te lo agrego porque no estaba -->
+
+                <button type="submit"  class="primary-btn">Registarse</button>
+
+                
+            </form>
+
+            <button class="secondary-btn">Iniciar sesion</button>
+        </div>
+    </section>
+</body>
+
+<script src="form.js"></script>
+</html>
